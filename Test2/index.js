@@ -70,6 +70,6 @@ let tours = [
   new Tour('Romania', 2000, 14, 1250)
 ];
 
-for (var i = 0; i < tours.length; i++) {
+for (let i = 0; i < tours.length; i++) {
   console.log(`Tour${(i + 1)}: ${tours[i].getName()} with price: ${tours[i].getPrice()}$`)
 }
